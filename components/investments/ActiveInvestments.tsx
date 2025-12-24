@@ -16,6 +16,7 @@ import {
 } from "@/lib/hooks/useInvestment";
 import { formatCurrency } from "@/lib/utils/formatCurrency";
 
+
 export function ActiveInvestmentsCards() {
   const { data: activeInvestments } = useActiveInvestments();
 
